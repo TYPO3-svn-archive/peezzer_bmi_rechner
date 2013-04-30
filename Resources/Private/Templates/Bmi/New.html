@@ -1,0 +1,21 @@
+<f:layout name="Default" />
+
+This template displays a NEW form for the current domain object.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        New.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>New Bmi</h1>
+
+<f:form action="create"  name="newBmi" object="{newBmi}">
+<f:render partial="Bmi/FormFields" />
+	<f:form.submit value="{f:translate(key:'button_send')}" />
+</f:form>
+</f:section>

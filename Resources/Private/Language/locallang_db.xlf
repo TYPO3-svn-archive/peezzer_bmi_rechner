@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-30T02:25:42Z" product-name="peezzer_bmi_rechner">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi">
+				<source>Bmi</source>
+			</trans-unit>
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi.height">
+				<source>Height</source>
+			</trans-unit>
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi.kg">
+				<source>Kg</source>
+			</trans-unit>
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi.crdate">
+				<source>Crdate</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

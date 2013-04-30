@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-30T02:25:42Z" product-name="peezzer_bmi_rechner">
+		<header/>
+		<body>
+
+			<trans-unit id="height.description">
+				<source>height</source>
+			</trans-unit>
+			<trans-unit id="kg.description">
+				<source>kg</source>
+			</trans-unit>
+			<trans-unit id="crdate.description">
+				<source>crdate</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

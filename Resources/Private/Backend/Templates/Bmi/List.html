@@ -1,0 +1,40 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="content">
+<h1>Listing for Bmi</h1>
+
+<f:flashMessages />
+
+<table  class="tx_peezzerbmirechner" >
+	<tr>
+		<th><f:translate key="tx_peezzerbmirechner_domain_model_bmi.height" /></th>
+		<th><f:translate key="tx_peezzerbmirechner_domain_model_bmi.kg" /></th>
+		<th><f:translate key="tx_peezzerbmirechner_domain_model_bmi.crdate" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{bmis}" as="bmi">
+		<tr>
+			<td><f:link.action action="show" arguments="{bmi : bmi}"> {bmi.height}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{bmi : bmi}"> {bmi.kg}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{bmi : bmi}"> {bmi.crdate -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{bmi : bmi}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{bmi : bmi}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Bmi</f:link.action>
+</f:section>

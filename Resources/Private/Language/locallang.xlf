@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-30T00:18:56Z" product-name="peezzer_bmi_rechner">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi">
+				<source>Bmi</source>
+			</trans-unit>
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi.height">
+				<source>Height (cm)</source>
+			</trans-unit>
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi.kg">
+				<source>Weight (kg)</source>
+			</trans-unit>
+			<trans-unit id="tx_peezzerbmirechner_domain_model_bmi.crdate">
+				<source>crdate</source>
+			</trans-unit>
+			
+			<trans-unit id="button_send">
+				<source>Calculate</source>
+			</trans-unit>
+			
+			<trans-unit id="button_send">
+				<source>Calculate</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.0">
+				<source>Could not calculate</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.1">
+				<source>Severely underweight</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.2">
+				<source>Underweight</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.3">
+				<source>Normal</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.4">
+				<source>Overweight</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.5">
+				<source>Obese Class 1</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.6">
+				<source>Obese Class 2</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.7">
+				<source>Obese Class 3</source>
+			</trans-unit>
+			
+			<trans-unit id="bmi.results">
+				<source>You BMI Calculation:</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

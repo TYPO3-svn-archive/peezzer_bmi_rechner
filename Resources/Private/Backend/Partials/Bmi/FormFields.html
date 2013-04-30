@@ -1,0 +1,12 @@
+<label for="height">
+	<f:translate key="tx_peezzerbmirechner_domain_model_bmi.height" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="height" /><br />
+<label for="kg">
+	<f:translate key="tx_peezzerbmirechner_domain_model_bmi.kg" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="kg" /><br />
+<label for="crdate">
+	<f:translate key="tx_peezzerbmirechner_domain_model_bmi.crdate" />
+</label><br />
+	<f:form.textfield property="crdate"  value="{bmi.crdate->f:format.date()}" /><br />
